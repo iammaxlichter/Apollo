@@ -1,0 +1,35 @@
+<script src="jsimp.js"></script>
+<head>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <div class ="hero-img">
+            <img src="images/logo.svg" alt = "the logo">
+        </div>
+
+        <h1>If you had $1000 in spare cash, would you be willing to take the following risk?</h1>
+
+        
+        <div class="answer"></div>
+            <form id="quiz">
+            <!-- Question 1 -->
+            <h2 id="prompt">You have a 50% chance to gain $500, and a 50% chance to lose your $1000</h2>
+
+            <div class = bttns>
+                <label class = "custom-radio-button"><input type="radio" name="q1" value="Yes">
+                    Yes of course!
+                </label><br />
+                <label><input type="radio" name="q1" value="No">
+                    Nope!
+                </label><br />
+            </div>
+                <div class = "clickSubmit">
+                    <button class ="btn" type="button" id="submit" onclick="evaluate_risk()">Submit Your Answers</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
