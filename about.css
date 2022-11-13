@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=M+PLUS+Code+Latin&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2A2A;
+}
+
+
+.hero-img{
+    text-align: center;
+    padding-bottom:20px;
+}
+
+/*This is the "Apollo title"*/
+
+header{
+    text-align: center;
+    padding: 0px 30%;
+    
+}
+
+
+.logo{
+    cursor: pointer;
+    font-size: 70px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    color: #edf0f1;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo:hover{
+    color: #b4b5b9;
+}
+
+/*This is the top text*/
+
+.motivation{
+    padding-top:30px;
+    padding-bottom:15px;
+    font-size: 22px;
+    color:white;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width:540px;
+    margin:auto;
+    
+}
+
+/*group photo*/
+
+.groupp{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+    border-radius: 30px;
+}
+
+/*this is the names*/
+
+.names{
+    padding-top:0px;
+    padding-bottom:15px;
+    font-size: 12px;
+    color:#B4B4B3;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width:540px;
+    margin:auto;
+     
+}
+
+/*this is the bottom text*/
+.description{
+    padding-bottom:50px;
+    font-size: 20px;
+    color:white;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width:700px;
+    margin:auto;
+      
+}
+
+/*this is the back button*/
+
+.back{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.BackButton{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 26px;
+    background: #00B38A;
+    width: 400px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px ;
+}
+
+@media only screen and (min-width: 680px) {
+    body {
+      margin: 1.5em 5em;
+      font-family: 'Lexend', sans-serif;
+    }
+  }
+
+
