@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=M+PLUS+Code+Latin&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2A2A;
+}
+
+
+.hero-img{
+    text-align: center;
+    padding-bottom:10px;
+}
+
+/*This is the "Apollo title"*/
+
+header{
+    text-align: center;
+    padding: 0px 30%;
+    
+}
+
+
+.logo{
+    cursor: pointer;
+    font-size: 50px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    color: #edf0f1;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo:hover{
+    color: #b4b5b9;
+}
+/*this is the about us button*/
+.about{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.createAccount{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.AboutButton{
+    
+    display: inline-block;
+    font-family: 'Lexend', sans-serif;
+    font-size: 12;
+    background: #2A2A2A;
+    width: 200px;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+
+/*This is the slogan thing*/
+
+.motivation{
+    padding-top:70px;
+    padding-bottom:50px;
+    font-size: 30px;
+    color:white;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width:449px;
+    margin:auto;
+    
+}
+
+/*This is the log in button*/
+.login{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.createAccount{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.LoginButton{
+    
+    display: inline-block;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    background: #2A2A2A;
+    width: 400px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #B4B3B3;
+    border-radius: 30px;
+}
+
+/*this is the "or" between the buttons*/
+
+.or{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Lexend', sans-serif;
+    color: #B4B3B3;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+
+/*This is the create account button*/
+
+.createAccount{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.CreateButton{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    background: #00B38A;
+    width: 400px;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px ;
+}
+
+
+
+@media only screen and (min-width: 680px) {
+    body {
+      margin: 1.5em 5em;
+      font-family: 'Lexend', sans-serif;
+    }
+  }
+
+

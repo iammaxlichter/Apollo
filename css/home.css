@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=M+PLUS+Code+Latin&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2A2A;
+}
+
+/*the logo*/
+.hero-img{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom:20px;
+}
+
+
+/*the main question*/
+h1{
+    padding-top:40px;
+    padding-bottom:70px;
+    font-size: 28px;
+    color:white;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width:449px;
+    margin:auto;
+}
+
+/*'your results show up here'*/
+
+.promptUser{
+    padding-top:0px;
+    padding-bottom:20px;
+    font-size: 20px;
+    color:#B4B3B3;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width:449px;
+    margin:auto;
+}
+
+/*the answer*/
+
+h2{
+    padding-top:0px;
+    padding-bottom:20px;
+    font-size: 20px;
+    color:white;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width:449px;
+    margin:auto;
+}
+
+/*styling the texts besides the button*/
+
+.bttns{
+    text-align: center;
+    justify-content: center;
+
+}
+label{
+    font-size: 20px;
+    color:white;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+/*clicking the button*/
+
+.btn:hover{
+    background-color: rgba(0, 179, 138, .7);
+    cursor: pointer;
+}
+.clickSubmit{
+    padding-top: 55px;
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+.btn{
+    padding-top:0px;
+    height:82px;
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: #00B38A;
+    color:white;
+    font-family: 'Lexend', sans-serif;
+    width:449px;
+}

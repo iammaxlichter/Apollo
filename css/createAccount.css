@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=M+PLUS+Code+Latin&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2A2A;
+}
+
+
+.hero-img{
+    text-align: center;
+}
+
+/*This is the input fullname button and text*/
+
+.fulltitle{
+    padding-top:20px;
+    text-align: center;
+    justify-content: left;
+    margin:auto;
+    padding-right: 400px;
+    font-size: 26px;
+    color:white;
+    padding-bottom: 10px;
+}
+
+.inputBoxFull{
+    text-align: center;
+    justify-content: center;
+    margin:auto
+}
+
+.inputBoxFull input{
+    width:600px;
+   
+    outline: none;
+    border: 1px solid #B4B3B3;
+    height:86px;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    font-family: 'Lexend', sans-serif;
+}
+
+input::placeholder{
+    color: #AFAFAF;
+    font-size: 26px;
+    
+}
+
+.inputBoxFull span{
+    font-family: 'Lexend', sans-serif;
+    font-size: 26px;
+    color: #B4B3B3;
+    pointer-events: none;
+    padding:10px;
+    color:white;
+}
+
+
+/*This is the input username  button and text*/
+
+.usertitle{
+    padding-top:20px;
+    text-align: center;
+    justify-content: left;
+    margin:auto;
+    padding-right: 400px;
+    font-size: 26px;
+    color:white;
+    padding-bottom: 5px;
+}
+
+.inputBoxUser{
+    text-align: center;
+    justify-content: center;
+    margin:auto
+}
+
+.inputBoxUser input{
+    width:600px;
+   
+    outline: none;
+    border: 1px solid #B4B3B3;
+    height:86px;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    font-family: 'Lexend', sans-serif;
+}
+
+input::placeholder{
+    color: #AFAFAF;
+    font-size: 26px;
+    
+}
+
+.inputBoxUser span{
+    font-family: 'Lexend', sans-serif;
+    font-size: 26px;
+    color: #B4B3B3;
+    pointer-events: none;
+    padding:10px;
+    color:white;
+}
+
+/*This is the input email button and text*/
+
+.emailtitle{
+    padding-top:20px;
+    text-align: center;
+    justify-content: left;
+    margin:auto;
+    padding-right: 460px;
+    font-size: 26px;
+    color:white;
+    padding-bottom: 5px;
+}
+
+.inputBoxEmail{
+    text-align: center;
+    justify-content: center;
+    margin:auto
+}
+
+.inputBoxEmail input{
+    width:600px;
+   
+    outline: none;
+    border: 1px solid #B4B3B3;
+    height:86px;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    font-family: 'Lexend', sans-serif;
+}
+
+input::placeholder{
+    color: #AFAFAF;
+    font-size: 26px;
+    
+}
+
+.inputBoxEmail span{
+    font-family: 'Lexend', sans-serif;
+    font-size: 26px;
+    color: #B4B3B3;
+    pointer-events: none;
+    padding:10px;
+    color:white;
+}
+
+/*This is the input password text and button*/
+
+.passtitle{
+    text-align: center;
+    justify-content: left;
+    margin:auto;
+    padding-right: 420px;
+    padding-top:20px;
+    font-size: 26px;
+    color:white;
+    padding-bottom: 5px;
+}
+
+.inputBoxPass{
+    text-align: center;
+    justify-content: left;
+    margin:auto;
+
+}
+
+.inputBoxPass input{
+    width:600px;
+    outline: none;
+    border: 1px solid #B4B3B3;
+    height:86px;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    font-family: 'Lexend', sans-serif;
+}
+
+input::placeholder{
+    color: #AFAFAF;
+    font-size: 26px;
+    padding-left: 5px;
+}
+
+.inputBoxPass span{
+    font-family: 'Lexend', sans-serif;
+    font-size: 26px;
+    color: #B4B3B3;
+    pointer-events: none;
+    padding:10px;
+    color:white;
+}
+
+
+/*this is the "bar" between the buttons*/
+
+.bar{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Lexend', sans-serif;
+    color: #B4B3B3;
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+
+/*This is the create account button*/
+
+.createAccount{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.CreateButton{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 32px;
+    background: #00B38A;
+    width: 600px;
+    padding: 25px;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px ;
+}
+
+
+
+@media only screen and (min-width: 680px) {
+    body {
+      margin: 1.5em 5em;
+      font-family: 'Lexend', sans-serif;
+    }
+  }
+
+

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&family=M+PLUS+Code+Latin&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #2A2A2A;
+}
+
+
+.hero-img{
+    text-align: center;
+    padding-bottom:5px;
+}
+
+/*This is the "Apollo title"*/
+
+header{
+    text-align: center;
+    padding: 0px 30%;
+    
+}
+
+
+.logo{
+    cursor: pointer;
+    font-size: 70px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+    font-size: 70px;
+    color: #edf0f1;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo:hover{
+    color: #b4b5b9;
+}
+
+/*This is the quote thing*/
+
+.motivation{
+    padding-top:30px;
+    padding-bottom:50px;
+    font-size: 26px;
+    color:white;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    justify-content: center;
+    width:640px;
+    margin:auto;
+    
+}
+
+/*This is the input username  button and text*/
+
+.usertitle{
+    text-align: center;
+    justify-content: left;
+    margin:auto;
+    padding-right: 335px;
+    font-size: 20px;
+    color:white;
+    padding-bottom: 10px;
+}
+
+.inputBoxUser{
+    text-align: center;
+    justify-content: center;
+    margin:auto
+}
+
+.inputBoxUser input{
+    width:500px;
+    outline: none;
+    border: 1px solid #B4B3B3;
+    height:86px;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    font-family: 'Lexend', sans-serif;
+}
+
+input::placeholder{
+    color: #AFAFAF;
+    font-size: 10px;
+    
+}
+
+.inputBoxUser span{
+    font-family: 'Lexend', sans-serif;
+    font-size: 26px;
+    color: #B4B3B3;
+    pointer-events: none;
+    padding:10px;
+    color:white;
+}
+
+
+/*This is the input password text and button*/
+
+.passtitle{
+    text-align: center;
+    justify-content: left;
+    margin:auto;
+    padding-right: 350px;
+    padding-top:20px;
+    font-size: 20px;
+    color:white;
+    padding-bottom: 10px;
+}
+
+.inputBoxPass{
+    text-align: center;
+    justify-content: left;
+    margin:auto;
+
+}
+
+.inputBoxPass input{
+    width:500px;
+    outline: none;
+    border: 1px solid #B4B3B3;
+    height:86px;
+    border-radius: 30px;
+    font-size: 26px;
+    color: #FFFFFF;
+    padding-left: 25px;
+    font-family: 'Lexend', sans-serif;
+}
+
+input::placeholder{
+    color: #AFAFAF;
+    font-size: 26px;
+    padding-left: 5px;
+}
+
+.inputBoxPass span{
+    font-family: 'Lexend', sans-serif;
+    font-size: 26px;
+    color: #B4B3B3;
+    pointer-events: none;
+    padding:10px;
+    color:white;
+}
+
+
+/*this is the "bar" between the buttons*/
+
+.bar{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-family: 'Lexend', sans-serif;
+    color: #B4B3B3;
+    padding-bottom:25px;
+    padding-top:25px;
+}
+
+
+/*This is the create account button*/
+
+.createAccount{
+    text-align: center;
+    justify-content: center;
+    margin:auto;
+}
+
+.CreateButton{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 32px;
+    background: #00B38A;
+    width: 500px;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px ;
+}
+
+
+
+@media only screen and (min-width: 680px) {
+    body {
+      margin: 1.5em 5em;
+      font-family: 'Lexend', sans-serif;
+    }
+  }
+
+
